@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex 5 Daniel"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-18 04:51:42 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTE4OyIwNDozNTo1OSAiOzI0MDY="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTE4OyIwNDo1MTo0MiAiOzM7MjUwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="antecessor" type="Integer" array="False" size=""/>
+            <declare name="sucessor" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="antecessor" expression="numero-1"/>
+            <assign variable="sucessor" expression="numero+1"/>
+            <assign variable="soma" expression="sucessor+antecessor"/>
+            <output expression="&quot;o antecessor &#233;: &quot; &amp;numero-1" newline="True"/>
+            <output expression="&quot;o sucessor &#233;: &quot; &amp;numero+1" newline="True"/>
+            <output expression="&quot;soma &#233;: &quot; &amp;numero1+numero2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1a"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-07 03:19:49 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAzLTA3OyIwMjo1ODoyNiAiOzI0MDI="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAzLTA3OyIwMzoxOTo0OSAiOzM7MjUxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v1" type="Integer" array="False" size=""/>
+            <declare name="v2" type="Integer" array="False" size=""/>
+            <assign variable="v1" expression="5"/>
+            <assign variable="v2" expression="8"/>
+            <if expression="v1&gt;=v2">
+                <then>
+                    <output expression="&quot;v1 &#233; maior que v2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;v1 &#233; menor que v2&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

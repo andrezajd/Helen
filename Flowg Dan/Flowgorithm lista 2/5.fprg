@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 02:15:34 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMjowNToyOCAiOzIzOTE="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMjoxNTozNCAiOzE7MjQ5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pre&#231;o" type="Real" array="False" size=""/>
+            <declare name="comdesconto" type="Real" array="False" size=""/>
+            <declare name="pre&#231;ofinal" type="Real" array="False" size=""/>
+            <input variable="pre&#231;o"/>
+            <assign variable="comdesconto" expression="pre&#231;o-(pre&#231;o*0.10)"/>
+            <output expression="&quot;O pre&#231;o &#233;: &quot; &amp;comdesconto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

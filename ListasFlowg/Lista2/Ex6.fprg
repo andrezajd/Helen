@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex4"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 03:08:34 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExMzsyMDI1LTAyLTIxOyIwMjoxMDo0NCAiOzIzODI="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExMzsyMDI1LTAyLTIxOyIwMzowODozNCAiOzM7MjQ5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peso" type="Integer" array="False" size=""/>
+            <declare name="altura" type="Integer" array="False" size=""/>
+            <declare name="IMC" type="Integer" array="False" size=""/>
+            <input variable="peso"/>
+            <input variable="altura"/>
+            <assign variable="IMC" expression="(peso/(altura*altura))"/>
+            <output expression="&quot;o IMC do peso*altura &#233;: &quot; &amp; IMC" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

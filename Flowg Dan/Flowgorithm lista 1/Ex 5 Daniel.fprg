@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex 5 Daniel"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-18 04:44:40 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTE4OyIwNDozNTo1OSAiOzI0MDY="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTE4OyIwNDo0NDo0MCAiOzI7MjUwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <output expression="&quot;o antecessor &#233;: &quot; &amp;numero-1" newline="True"/>
+            <output expression="&quot;o sucessor &#233;: &quot; &amp;numero+1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

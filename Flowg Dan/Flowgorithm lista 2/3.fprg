@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 02:38:31 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMTozNzo1MiAiOzIzOTI="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMjozODozMSAiOzM7MjUwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <declare name="numero3" type="Integer" array="False" size=""/>
+            <declare name="numero4" type="Integer" array="False" size=""/>
+            <declare name="m&#233;dia" type="Integer" array="False" size=""/>
+            <input variable="numero1"/>
+            <input variable="numero2"/>
+            <input variable="numero3"/>
+            <input variable="numero4"/>
+            <assign variable="m&#233;dia" expression="(numero1+numero2+numero3+numero4)/4"/>
+            <output expression="&quot;m&#233;dia dos quatro numeros: &quot; &amp;m&#233;dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

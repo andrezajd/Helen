@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1a"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 10:54:38 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNDsyMDI1LTAzLTEyOyIwMTo0MDozMSAiOzIzODI="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNDsyMDI1LTAzLTEyOyIwMTo0OTozMiAiOzE7MjUwMA=="/>
+        <attribute name="edited" value="YW5kcmU7QU5EOzIwMjUtMDMtMTI7IjEwOjU0OjM4ICI7NzsyMDM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="- &quot;==&quot;: Igual a&#13;&#10;- &quot;!=&quot;: Diferente de&#13;&#10;- &quot;&lt;&quot;: Menor que&#13;&#10;- &quot;&gt;&quot;: Maior que&#13;&#10;- &quot;&lt;=&quot;: Menor ou igual a&#13;&#10;- &quot;&gt;=&quot;: Maior ou igual a"/>
+            <declare name="v1" type="Integer" array="False" size=""/>
+            <declare name="v2" type="Integer" array="False" size=""/>
+            <declare name="v3" type="Integer" array="False" size=""/>
+            <input variable="v1"/>
+            <input variable="v2"/>
+            <input variable="v3"/>
+            <if expression="V1 != V2 or V3 &lt;= V1">
+                <then>
+                    <output expression="&quot;verdade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;falso&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

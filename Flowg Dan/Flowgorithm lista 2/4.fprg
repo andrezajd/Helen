@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="4"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 02:05:13 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMTo1OTowNiAiOzIzOTU="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMjowNToxMyAiOzE7MjQ5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base" type="Integer" array="False" size=""/>
+            <declare name="altura" type="Integer" array="False" size=""/>
+            <declare name="&#225;rea" type="Integer" array="False" size=""/>
+            <input variable="base"/>
+            <input variable="altura"/>
+            <assign variable="&#225;rea" expression="base*altura"/>
+            <output expression="&quot;A &#225;rea eh: &quot; &amp;&#225;rea" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

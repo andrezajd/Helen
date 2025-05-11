@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex4"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 02:20:29 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExMzsyMDI1LTAyLTIxOyIwMjoxMDo0NCAiOzIzODI="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExMzsyMDI1LTAyLTIxOyIwMjoyMDoyOSAiOzE7MjQ5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="area" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="area" expression="a*b"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-14 03:45:11 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNDsyMDI1LTAyLTE0OyIwMzowOTo0OSAiOzIzOTk="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNDsyMDI1LTAyLTE0OyIwMzo0NToxMSAiOzE7MjQ5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <output expression="numero" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

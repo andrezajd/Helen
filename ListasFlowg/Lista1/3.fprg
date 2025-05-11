@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-16 01:39:21 "/>
+        <attribute name="created" value="YW5kcmU7QU5EOzIwMjUtMDItMTU7IjA5OjAxOjQzICI7MTkyMg=="/>
+        <attribute name="edited" value="YW5kcmU7QU5EOzIwMjUtMDItMTY7IjAxOjM5OjIxICI7MjsyMDMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <declare name="n2" type="Integer" array="False" size=""/>
+            <declare name="multiplicar" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="2"/>
+            <assign variable="n2" expression="2"/>
+            <assign variable="multiplicar" expression="n1*n2"/>
+            <output expression="&quot;o produto de n1*n2 eh: &quot;&amp;multiplicar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

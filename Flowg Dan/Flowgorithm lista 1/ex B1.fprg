@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex B1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-18 05:01:24 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTE4OyIwNDo1NDo0NyAiOzI0MDQ="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTE4OyIwNTowMToyNCAiOzI7MjUwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="mult" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="mult" expression="numero*numero"/>
+        </body>
+    </function>
+</flowgorithm>

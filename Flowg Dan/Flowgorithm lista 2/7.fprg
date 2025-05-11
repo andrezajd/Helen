@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="7.6"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 02:36:18 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMjoxNjoxOSAiOzIzOTM="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExNjsyMDI1LTAyLTIxOyIwMjozNjoxOCAiOzI7MjUwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Sal&#225;rio" type="Real" array="False" size=""/>
+            <declare name="aumento" type="Real" array="False" size=""/>
+            <declare name="aumentosalarial" type="Integer" array="False" size=""/>
+            <input variable="sal&#225;rio"/>
+            <assign variable="aumentosalarial" expression="sal&#225;rio+(sal&#225;rio*0.15)"/>
+            <output expression="&quot;Seu novo salario &#233;: &quot; &amp;aumentosalarial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

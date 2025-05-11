@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex1"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 02:06:06 "/>
+        <attribute name="created" value="QWx1bm87Q09NVU5JQ0ExMzsyMDI1LTAyLTIxOyIwMTo0MDo0NyAiOzIzODc="/>
+        <attribute name="edited" value="QWx1bm87Q09NVU5JQ0ExMzsyMDI1LTAyLTIxOyIwMjowNjowNiAiOzQ7MjQ5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <declare name="n2" type="Integer" array="False" size=""/>
+            <declare name="n3" type="Integer" array="False" size=""/>
+            <declare name="n4" type="Integer" array="False" size=""/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="resultado" expression="(n1+n2+n3+n4)/4"/>
+            <output expression="resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
